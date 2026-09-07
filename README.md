@@ -142,6 +142,19 @@ splitting, tracker identity and occlusion behaviour, zone-transition logic,
 dwell/occupancy analytics, and evidence-output integrity. No video files
 required.
 
+## Review UI (optional)
+
+A small local web interface for picking a video, running it, watching the
+annotated result and downloading everything as a zip:
+
+```bash
+pip install -r ui/requirements-ui.txt
+python ui/app.py          # then open http://127.0.0.1:7860
+```
+
+It shells out to the same `src/main.py` the CLI uses, so results are identical
+either way. Not part of the graded pipeline — see `ui/README.md`.
+
 ## Using this pipeline on your own footage
 
 ```bash

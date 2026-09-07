@@ -15,6 +15,16 @@ download and no AGPL/GPL-licensed model dependency to account for. The
 pipeline runs entirely offline — no network access at install time beyond
 `pip`, and none at all at run time.
 
+## Optional review UI (`ui/`, not part of the graded pipeline)
+
+| Component | Used for | License |
+|---|---|---|
+| [Gradio](https://www.gradio.app/) | local web interface | Apache-2.0 |
+| [imageio-ffmpeg](https://github.com/imageio/imageio-ffmpeg) | bundled ffmpeg binary, used only to transcode the annotated video into a browser-playable copy for preview | BSD-2-Clause for the wrapper; the bundled FFmpeg build carries its own LGPL/GPL terms and is invoked as an unmodified external executable, never linked into this codebase |
+
+Neither is imported by `src/`. The graded pipeline runs with only OpenCV,
+NumPy and SciPy installed, and the UI is entirely optional.
+
 ## AI development assistance
 
 | Tool | Use | Status |
