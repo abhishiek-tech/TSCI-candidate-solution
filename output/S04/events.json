@@ -1,0 +1,194 @@
+[
+  {
+    "observation_id": "f7785b77-dfe5-425e-abe2-0b3c1e950c1f",
+    "scenario_id": "S04_DWELL_QUEUE",
+    "camera_id": "candidate_cam_01",
+    "observed_at": "2026-09-07T08:00:34.139597+00:00",
+    "observed_at_seconds": 7.72,
+    "video_time_seconds": 7.72,
+    "object_type": "queue",
+    "event_type": "QUEUE_THRESHOLD",
+    "track_id": "occupancy",
+    "confidence": 1.0,
+    "attributes": {
+      "zone": "QUEUE",
+      "occupancy": 2
+    },
+    "evidence": {
+      "image_path": "evidence/f7785b77-dfe5-425e-abe2-0b3c1e950c1f.jpg",
+      "clip_path": ""
+    },
+    "model": {
+      "name": "appearance-AppearanceChannelDetector",
+      "version": "1.0"
+    }
+  },
+  {
+    "observation_id": "9b54efdb-1f0f-460f-918c-b8fdf9d4c891",
+    "scenario_id": "S04_DWELL_QUEUE",
+    "camera_id": "candidate_cam_01",
+    "observed_at": "2026-09-07T08:00:35.626630+00:00",
+    "observed_at_seconds": 10.12,
+    "video_time_seconds": 10.12,
+    "object_type": "queue",
+    "event_type": "QUEUE_THRESHOLD",
+    "track_id": "occupancy",
+    "confidence": 1.0,
+    "attributes": {
+      "zone": "QUEUE",
+      "occupancy": 2
+    },
+    "evidence": {
+      "image_path": "evidence/9b54efdb-1f0f-460f-918c-b8fdf9d4c891.jpg",
+      "clip_path": ""
+    },
+    "model": {
+      "name": "appearance-AppearanceChannelDetector",
+      "version": "1.0"
+    }
+  },
+  {
+    "observation_id": "dddef83e-264c-4594-93c1-3de4f71ff335",
+    "scenario_id": "S04_DWELL_QUEUE",
+    "camera_id": "candidate_cam_01",
+    "observed_at": "2026-09-07T08:00:37.506277+00:00",
+    "observed_at_seconds": 13.8,
+    "video_time_seconds": 13.8,
+    "object_type": "moving_object",
+    "event_type": "DWELL_THRESHOLD",
+    "track_id": 1,
+    "confidence": 0.8326876513317192,
+    "attributes": {
+      "zone": "QUEUE",
+      "dwell_seconds": 7.64
+    },
+    "evidence": {
+      "image_path": "evidence/dddef83e-264c-4594-93c1-3de4f71ff335.jpg",
+      "clip_path": ""
+    },
+    "model": {
+      "name": "appearance-AppearanceChannelDetector",
+      "version": "1.0"
+    }
+  },
+  {
+    "observation_id": "d33b62cb-1749-4675-8137-aa5cdae75d00",
+    "scenario_id": "S04_DWELL_QUEUE",
+    "camera_id": "candidate_cam_01",
+    "observed_at": "2026-09-07T08:00:39.107268+00:00",
+    "observed_at_seconds": 17.0,
+    "video_time_seconds": 17.0,
+    "object_type": "moving_object",
+    "event_type": "DWELL_THRESHOLD",
+    "track_id": 2,
+    "confidence": 0.8481770833333333,
+    "attributes": {
+      "zone": "QUEUE",
+      "dwell_seconds": 9.28
+    },
+    "evidence": {
+      "image_path": "evidence/d33b62cb-1749-4675-8137-aa5cdae75d00.jpg",
+      "clip_path": ""
+    },
+    "model": {
+      "name": "appearance-AppearanceChannelDetector",
+      "version": "1.0"
+    }
+  },
+  {
+    "observation_id": "44c33948-78ad-4cda-8ce6-e73875e90b0d",
+    "scenario_id": "S04_DWELL_QUEUE",
+    "camera_id": "candidate_cam_01",
+    "observed_at": "2026-09-07T08:00:39.776689+00:00",
+    "observed_at_seconds": 18.16,
+    "video_time_seconds": 18.16,
+    "object_type": "moving_object",
+    "event_type": "A_TO_B",
+    "track_id": 1,
+    "confidence": 0.8241880341880342,
+    "attributes": {
+      "source_zone": "A",
+      "destination_zone": "B"
+    },
+    "evidence": {
+      "image_path": "evidence/44c33948-78ad-4cda-8ce6-e73875e90b0d.jpg",
+      "clip_path": ""
+    },
+    "model": {
+      "name": "appearance-AppearanceChannelDetector",
+      "version": "1.0"
+    }
+  },
+  {
+    "observation_id": "60f6d147-08e2-411d-a6ff-b5a466b1564c",
+    "scenario_id": "S04_DWELL_QUEUE",
+    "camera_id": "candidate_cam_01",
+    "observed_at": "2026-09-07T08:00:40.990406+00:00",
+    "observed_at_seconds": 20.24,
+    "video_time_seconds": 20.24,
+    "object_type": "moving_object",
+    "event_type": "DWELL_THRESHOLD",
+    "track_id": 3,
+    "confidence": 0.772844827586207,
+    "attributes": {
+      "zone": "QUEUE",
+      "dwell_seconds": 10.12
+    },
+    "evidence": {
+      "image_path": "evidence/60f6d147-08e2-411d-a6ff-b5a466b1564c.jpg",
+      "clip_path": ""
+    },
+    "model": {
+      "name": "appearance-AppearanceChannelDetector",
+      "version": "1.0"
+    }
+  },
+  {
+    "observation_id": "1c1c416c-a7ca-4372-b886-28a80c69338c",
+    "scenario_id": "S04_DWELL_QUEUE",
+    "camera_id": "candidate_cam_01",
+    "observed_at": "2026-09-07T08:00:41.646871+00:00",
+    "observed_at_seconds": 21.28,
+    "video_time_seconds": 21.28,
+    "object_type": "moving_object",
+    "event_type": "A_TO_B",
+    "track_id": 2,
+    "confidence": 0.8413279132791328,
+    "attributes": {
+      "source_zone": "A",
+      "destination_zone": "B"
+    },
+    "evidence": {
+      "image_path": "evidence/1c1c416c-a7ca-4372-b886-28a80c69338c.jpg",
+      "clip_path": ""
+    },
+    "model": {
+      "name": "appearance-AppearanceChannelDetector",
+      "version": "1.0"
+    }
+  },
+  {
+    "observation_id": "c7bb2015-4694-48ff-9fd6-f328a5a88a5e",
+    "scenario_id": "S04_DWELL_QUEUE",
+    "camera_id": "candidate_cam_01",
+    "observed_at": "2026-09-07T08:00:43.390231+00:00",
+    "observed_at_seconds": 24.28,
+    "video_time_seconds": 24.28,
+    "object_type": "moving_object",
+    "event_type": "A_TO_B",
+    "track_id": 3,
+    "confidence": 0.8053586862575627,
+    "attributes": {
+      "source_zone": "A",
+      "destination_zone": "B"
+    },
+    "evidence": {
+      "image_path": "evidence/c7bb2015-4694-48ff-9fd6-f328a5a88a5e.jpg",
+      "clip_path": ""
+    },
+    "model": {
+      "name": "appearance-AppearanceChannelDetector",
+      "version": "1.0"
+    }
+  }
+]

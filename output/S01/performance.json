@@ -1,0 +1,9 @@
+{
+  "scenario_id": "S01_BASIC_GOODS",
+  "frames_processed": 600,
+  "video_fps": 25.0,
+  "wall_clock_seconds": 21.266,
+  "processing_fps": 28.21,
+  "detector": "appearance",
+  "appearance_signatures_learned": 3
+}

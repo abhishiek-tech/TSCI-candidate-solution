@@ -1,0 +1,122 @@
+[
+  {
+    "observation_id": "71b216a9-1c1f-4c05-b678-b9aeb0e605b4",
+    "scenario_id": "S03_DENSE_CROSSING",
+    "camera_id": "candidate_cam_01",
+    "observed_at": "2026-09-07T08:00:20.556817+00:00",
+    "observed_at_seconds": 13.24,
+    "video_time_seconds": 13.24,
+    "object_type": "moving_object",
+    "event_type": "A_TO_B",
+    "track_id": 1,
+    "confidence": 0.8041691306918983,
+    "attributes": {
+      "source_zone": "A",
+      "destination_zone": "B"
+    },
+    "evidence": {
+      "image_path": "evidence/71b216a9-1c1f-4c05-b678-b9aeb0e605b4.jpg",
+      "clip_path": ""
+    },
+    "model": {
+      "name": "appearance-AppearanceChannelDetector",
+      "version": "1.0"
+    }
+  },
+  {
+    "observation_id": "2e9b860d-9ddb-43eb-8e3a-e49c391fc7b5",
+    "scenario_id": "S03_DENSE_CROSSING",
+    "camera_id": "candidate_cam_01",
+    "observed_at": "2026-09-07T08:00:21.073331+00:00",
+    "observed_at_seconds": 14.0,
+    "video_time_seconds": 14.0,
+    "object_type": "moving_object",
+    "event_type": "A_TO_B",
+    "track_id": 2,
+    "confidence": 0.8211516853932584,
+    "attributes": {
+      "source_zone": "A",
+      "destination_zone": "B"
+    },
+    "evidence": {
+      "image_path": "evidence/2e9b860d-9ddb-43eb-8e3a-e49c391fc7b5.jpg",
+      "clip_path": ""
+    },
+    "model": {
+      "name": "appearance-AppearanceChannelDetector",
+      "version": "1.0"
+    }
+  },
+  {
+    "observation_id": "f48dabec-0d33-4c6c-9333-e85fcfae79ec",
+    "scenario_id": "S03_DENSE_CROSSING",
+    "camera_id": "candidate_cam_01",
+    "observed_at": "2026-09-07T08:00:21.496473+00:00",
+    "observed_at_seconds": 14.6,
+    "video_time_seconds": 14.6,
+    "object_type": "moving_object",
+    "event_type": "B_TO_A",
+    "track_id": 3,
+    "confidence": 0.6,
+    "attributes": {
+      "source_zone": "B",
+      "destination_zone": "A"
+    },
+    "evidence": {
+      "image_path": "evidence/f48dabec-0d33-4c6c-9333-e85fcfae79ec.jpg",
+      "clip_path": ""
+    },
+    "model": {
+      "name": "appearance-AppearanceChannelDetector",
+      "version": "1.0"
+    }
+  },
+  {
+    "observation_id": "8ca95c1c-7812-449f-a2eb-120fa11c673c",
+    "scenario_id": "S03_DENSE_CROSSING",
+    "camera_id": "candidate_cam_01",
+    "observed_at": "2026-09-07T08:00:22.123361+00:00",
+    "observed_at_seconds": 15.48,
+    "video_time_seconds": 15.48,
+    "object_type": "moving_object",
+    "event_type": "B_TO_A",
+    "track_id": 4,
+    "confidence": 0.6,
+    "attributes": {
+      "source_zone": "B",
+      "destination_zone": "A"
+    },
+    "evidence": {
+      "image_path": "evidence/8ca95c1c-7812-449f-a2eb-120fa11c673c.jpg",
+      "clip_path": ""
+    },
+    "model": {
+      "name": "appearance-AppearanceChannelDetector",
+      "version": "1.0"
+    }
+  },
+  {
+    "observation_id": "2466f676-818e-49b5-8346-1a68892c1ad6",
+    "scenario_id": "S03_DENSE_CROSSING",
+    "camera_id": "candidate_cam_01",
+    "observed_at": "2026-09-07T08:00:24.856490+00:00",
+    "observed_at_seconds": 19.12,
+    "video_time_seconds": 19.12,
+    "object_type": "moving_object",
+    "event_type": "A_TO_B",
+    "track_id": 5,
+    "confidence": 0.844259331008653,
+    "attributes": {
+      "source_zone": "A",
+      "destination_zone": "B"
+    },
+    "evidence": {
+      "image_path": "evidence/2466f676-818e-49b5-8346-1a68892c1ad6.jpg",
+      "clip_path": ""
+    },
+    "model": {
+      "name": "appearance-AppearanceChannelDetector",
+      "version": "1.0"
+    }
+  }
+]

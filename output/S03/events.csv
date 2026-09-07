@@ -1,0 +1,6 @@
+scenario_id,event_type,track_id,object_type,confidence,video_time_seconds
+S03_DENSE_CROSSING,A_TO_B,1,moving_object,0.8041691306918983,13.24
+S03_DENSE_CROSSING,A_TO_B,2,moving_object,0.8211516853932584,14.0
+S03_DENSE_CROSSING,B_TO_A,3,moving_object,0.6,14.6
+S03_DENSE_CROSSING,B_TO_A,4,moving_object,0.6,15.48
+S03_DENSE_CROSSING,A_TO_B,5,moving_object,0.844259331008653,19.12

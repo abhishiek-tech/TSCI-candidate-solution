@@ -1,0 +1,23 @@
+{
+  "camera_id": "candidate_cam_01",
+  "scenario_id": "S01_BASIC_GOODS",
+  "detector": "appearance",
+  "detector_params": {
+    "min_area": 600,
+    "max_area_ratio": 0.5,
+    "history": 150,
+    "var_threshold": 24,
+    "learning_rate": 0.003,
+    "merge_area_ratio": 1.6,
+    "signature_match_threshold": 0.07,
+    "signature_confirm_hits": 3,
+    "min_channel_area": 150,
+    "fallback_split": true
+  },
+  "tracker": {"max_match_distance": 90, "max_missed_frames": 300, "min_hits": 2},
+  "zone_flow": {"stability_frames": 3, "cooldown_seconds": 1.5},
+  "zones": {
+    "A": [80, 120, 430, 620],
+    "B": [850, 120, 1200, 620]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "scenario_id": "S04_DWELL_QUEUE",
+  "frames_processed": 800,
+  "video_fps": 25.0,
+  "wall_clock_seconds": 19.332,
+  "processing_fps": 41.38,
+  "detector": "appearance",
+  "appearance_signatures_learned": 3
+}

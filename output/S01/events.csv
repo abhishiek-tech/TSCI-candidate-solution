@@ -1,0 +1,4 @@
+scenario_id,event_type,track_id,object_type,confidence,video_time_seconds
+S01_BASIC_GOODS,A_TO_B,1,moving_object,0.8493589743589745,8.44
+S01_BASIC_GOODS,A_TO_B,2,moving_object,0.868493543758967,10.76
+S01_BASIC_GOODS,B_TO_A,3,moving_object,0.8344402433010027,15.2

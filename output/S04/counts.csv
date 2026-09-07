@@ -1,0 +1,4 @@
+event_type,count
+A_TO_B,3
+DWELL_THRESHOLD,3
+QUEUE_THRESHOLD,2

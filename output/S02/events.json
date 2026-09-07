@@ -1,0 +1,74 @@
+[
+  {
+    "observation_id": "1575a0fb-d1c8-41ed-8c5e-05b712b4b5e7",
+    "scenario_id": "S02_OCCLUSION_REVERSAL",
+    "camera_id": "candidate_cam_01",
+    "observed_at": "2026-09-07T08:00:02.096692+00:00",
+    "observed_at_seconds": 12.44,
+    "video_time_seconds": 12.44,
+    "object_type": "moving_object",
+    "event_type": "A_TO_B",
+    "track_id": 1,
+    "confidence": 0.8341011235955056,
+    "attributes": {
+      "source_zone": "A",
+      "destination_zone": "B"
+    },
+    "evidence": {
+      "image_path": "evidence/1575a0fb-d1c8-41ed-8c5e-05b712b4b5e7.jpg",
+      "clip_path": ""
+    },
+    "model": {
+      "name": "appearance-AppearanceChannelDetector",
+      "version": "1.0"
+    }
+  },
+  {
+    "observation_id": "6428d403-f730-4066-9eaa-43ac4b5a2f75",
+    "scenario_id": "S02_OCCLUSION_REVERSAL",
+    "camera_id": "candidate_cam_01",
+    "observed_at": "2026-09-07T08:00:05.417084+00:00",
+    "observed_at_seconds": 18.64,
+    "video_time_seconds": 18.64,
+    "object_type": "moving_object",
+    "event_type": "B_TO_A",
+    "track_id": 2,
+    "confidence": 0.8211251758087201,
+    "attributes": {
+      "source_zone": "B",
+      "destination_zone": "A"
+    },
+    "evidence": {
+      "image_path": "evidence/6428d403-f730-4066-9eaa-43ac4b5a2f75.jpg",
+      "clip_path": ""
+    },
+    "model": {
+      "name": "appearance-AppearanceChannelDetector",
+      "version": "1.0"
+    }
+  },
+  {
+    "observation_id": "261ea2f5-b5f3-4c68-a20d-1a930cb88218",
+    "scenario_id": "S02_OCCLUSION_REVERSAL",
+    "camera_id": "candidate_cam_01",
+    "observed_at": "2026-09-07T08:00:06.376396+00:00",
+    "observed_at_seconds": 20.28,
+    "video_time_seconds": 20.28,
+    "object_type": "moving_object",
+    "event_type": "A_TO_B",
+    "track_id": 3,
+    "confidence": 0.865281045751634,
+    "attributes": {
+      "source_zone": "A",
+      "destination_zone": "B"
+    },
+    "evidence": {
+      "image_path": "evidence/261ea2f5-b5f3-4c68-a20d-1a930cb88218.jpg",
+      "clip_path": ""
+    },
+    "model": {
+      "name": "appearance-AppearanceChannelDetector",
+      "version": "1.0"
+    }
+  }
+]

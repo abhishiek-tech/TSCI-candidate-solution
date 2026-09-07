@@ -1,0 +1,4 @@
+scenario_id,event_type,track_id,object_type,confidence,video_time_seconds
+S02_OCCLUSION_REVERSAL,A_TO_B,1,moving_object,0.8341011235955056,12.44
+S02_OCCLUSION_REVERSAL,B_TO_A,2,moving_object,0.8211251758087201,18.64
+S02_OCCLUSION_REVERSAL,A_TO_B,3,moving_object,0.865281045751634,20.28

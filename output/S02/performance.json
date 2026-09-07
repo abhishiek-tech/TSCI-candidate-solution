@@ -1,0 +1,9 @@
+{
+  "scenario_id": "S02_OCCLUSION_REVERSAL",
+  "frames_processed": 750,
+  "video_fps": 25.0,
+  "wall_clock_seconds": 16.257,
+  "processing_fps": 46.13,
+  "detector": "appearance",
+  "appearance_signatures_learned": 3
+}

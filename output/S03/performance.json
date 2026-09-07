@@ -1,0 +1,9 @@
+{
+  "scenario_id": "S03_DENSE_CROSSING",
+  "frames_processed": 700,
+  "video_fps": 25.0,
+  "wall_clock_seconds": 17.055,
+  "processing_fps": 41.04,
+  "detector": "appearance",
+  "appearance_signatures_learned": 5
+}
